@@ -16,7 +16,7 @@ public class HandleCachedThreadPool {
             cachedThreadPool.execute(power);
             System.out.printf("%s -> Handle -> Thread pool size: %d\n", LocalDateTime.now().format(f)
                     , cachedThreadPool.getPoolSize());
-            System.out.printf("%s -> Handel -> Active threads pool: %d\n",
+            System.out.printf("%s -> Handel -> Active threads count: %d\n",
                     LocalDateTime.now().format(f), cachedThreadPool.getActiveCount());
         } catch (Exception e) {
             System.out.printf("%s -> Handle -> Task rejected : %s\n",
